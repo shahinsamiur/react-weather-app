@@ -1,0 +1,59 @@
+.menu {
+    position: relative;
+    left: 60%;
+    background: rgb(1, 5, 26);
+    height: auto;
+    width: 20vh;
+    top: 7vh;
+    visibility: hidden;
+
+
+}
+.menu span{
+    display: block;
+    font-size:25px;
+    margin-top:8px;
+    text-align: center;
+    padding:5px 0px 5px 0px;
+
+}
+
+@keyframes MenuAnimation {
+    0%{
+        position: relative;
+        left:100%;
+    }
+    100%{
+        position: relative;
+        left:60%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .menu {
+        position: inherit;
+        left: 60%;
+        /* background: rgb(1, 5, 26); */
+        height: auto;
+        width: 30%;
+        top: 5vh;
+        overflow: auto;
+        color: white;
+        visibility: visible;
+        border-radius:5px;
+      
+    }
+
+    .menu ul {
+        position: relative;
+        color: white;
+        background: none;
+        font-size: 5px;
+        display: inline-block;
+    }
+    .menu span:hover{
+        background:rgb(53, 53, 53);
+        border-radius:10px;
+    }
+}

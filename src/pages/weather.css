@@ -1,0 +1,74 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet"> */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.bodys {
+
+    background: url(../assets/bg.jpg);
+    background-size: cover;
+    object-fit: fill;
+
+    background-repeat: no-repeat;
+  
+    scroll-snap-type: none;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+
+.logo {
+
+
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: Karantina;
+    display: inline;
+
+}
+
+.date {
+    position: relative;
+    text-align: right;
+    color: white;
+    display: inline;
+    left: 80%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
